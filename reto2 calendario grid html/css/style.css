@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:  sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -10,21 +10,21 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #cfd9e4af;
+    background-color: #f1e2e2;
 }
 
 .calendario-contenido {
     width: 600px;
-    background-color: #2629d4a2;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0 4px 12px rgb(0, 0, 0);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-.calendario-contenido  h1 {
+.calendario-contenido h1 {
     text-align: center;
     margin-bottom: 20px;
-    color: #000000;
+    color: #333333;
 }
 
 .calendario-grid {
@@ -34,20 +34,18 @@ body {
 }
 
 .day-header {
-    background-color: #fbfffc;
+    background-color: #f0f2f5;
     font-weight: bold;
     text-align: center;
     padding: 10px;
     border-radius: 4px;
     color: #495057;
-    cursor: pointer;
 }
 
 .day-cell {
-    border: 1px solid #d6c9c6d3;
+    border: 1px solid #dee2e6;
     padding: 10px;
     text-align: center;
     border-radius: 4px;
-    color: #ffffff;
-    cursor: grabbing;
+    color: #212529;
 }
